@@ -44,8 +44,8 @@ aws-static-website/
 │   ├── style.css
 │   └── 404.html
 ├── screenshots/
-│   ├── 01-s3-bucket-created.png
-│   ├── 02-bucket-files-uploaded.png
+│   ├── 01-S3-bucket-created.png
+│   ├── 02-Bucketfiles-uploaded.png
 │   ├── 03-cloudfront-created.png
 │   ├── 04-bucket-policy.png
 │   ├── 05-cloudfront-invalidation-created.png
@@ -70,12 +70,12 @@ aws-static-website/
 
 | Step | Screenshot |
 |---|---|
-| S3 Bucket Created | ![bucket](screenshots/01-s3-bucket-created.png) |
-| Files Uploaded | ![files](screenshots/02-bucket-files-uploaded.png) |
-| CloudFront Distribution | ![cloudfront](screenshots/03-cloudfront-created.png) |
-| Bucket Policy Applied | ![policy](screenshots/04-bucket-policy.png) |
-| CloudFront Invalidation | ![invalidation](screenshots/05-cloudfront-invalidation-created.png) |
-| Live Site | ![live](screenshots/06-live-site.png) |
+| S3 Bucket Created | ![bucket](01-S3-bucket-created.png) |
+| Files Uploaded | ![files](02-Bucketfiles-uploaded.png) |
+| CloudFront Distribution | ![cloudfront](03-cloudfront-created.png) |
+| Bucket Policy Applied | ![policy](04-bucket-policy.png) |
+| CloudFront Invalidation | ![invalidation](05-cloudfront-invalidation-created.png) |
+| Live Site | ![live](06-live-site.png) |
 
 ---
 
@@ -130,4 +130,4 @@ GitHub: https://github.com/prashanttsri
 
 ## 🎯 Final Output
 
-![Final Website Output](screenshots/06-live-site.png)
+![Final Website Output](06-live-site.png)
