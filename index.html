@@ -3,78 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prashant Srivastava | Cloud Portfolio</title>
+    <title>Prashant | Cloud Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navbar -->
     <nav>
-        <h2>Prashant.</h2>
+        <div class="logo">PRASHANT</div>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#project">Project</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Projects</a></li>
         </ul>
+        <button>Hire Me</button>
     </nav>
 
-    <!-- Hero -->
-    <section id="home" class="hero">
-        <div class="hero-text">
-            <h1>Hello, I'm <span>Prashant Srivastava</span></h1>
-            <h3>Aspiring Cloud Engineer</h3>
-            <p>B.Tech CSE student focused on AWS Cloud, DevOps, and deployment-based projects.</p>
-            <button onclick="scrollToSection()">View Project</button>
+    <section class="hero">
+
+        <div class="left">
+            <h1>PRASHANT <br> SRIVASTAVA.</h1>
+
+            <div class="card">
+                <p>B.Tech CSE Student</p>
+                <p>GLA University</p>
+                <p>2022 - 2026</p>
+            </div>
         </div>
-    </section>
 
-    <!-- About -->
-    <section id="about" class="about">
-        <h2>About Me</h2>
-        <p>
-            I am a Computer Science undergraduate at GLA University (2022-2026)
-            with a strong interest in Cloud Computing, AWS services, and DevOps tools.
-            I have completed Full Stack Web Development training and currently building
-            cloud-based projects to strengthen deployment and infrastructure skills.
-        </p>
-    </section>
+        <div class="right">
+            <span class="tag">AWS • CLOUD • DEVOPS</span>
 
-    <!-- Skills -->
-    <section id="skills" class="skills">
-        <h2>Cloud Skills</h2>
-        <div class="skill-box">
-            <div>AWS S3</div>
-            <div>AWS IAM</div>
-            <div>EC2</div>
-            <div>CloudFront</div>
-            <div>Git & GitHub</div>
-            <div>Linux</div>
-            <div>HTML</div>
-            <div>CSS</div>
-            <div>JavaScript</div>
+            <h2>I'M A CLOUD ENGINEER</h2>
+
+            <p>
+                Passionate about AWS Cloud, Linux, DevOps and deployment-based projects.
+                Focused on building scalable cloud infrastructure and learning modern cloud technologies.
+            </p>
+
+            <div class="skills">
+                <span>AWS S3</span>
+                <span>CloudFront</span>
+                <span>IAM</span>
+                <span>EC2</span>
+                <span>Linux</span>
+                <span>GitHub</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+            <div class="buttons">
+                <button>View Project</button>
+                <button class="outline">Contact</button>
+            </div>
+
+            <div class="stats">
+                <div>
+                    <h3>1+</h3>
+                    <p>Cloud Projects</p>
+                </div>
+                <div>
+                    <h3>AWS</h3>
+                    <p>Learning Path</p>
+                </div>
+            </div>
+
         </div>
+
     </section>
 
-    <!-- Project -->
-    <section id="project" class="project">
-        <h2>Featured Cloud Project</h2>
-        <div class="project-card">
+    <section class="project">
+        <h2>Featured Project</h2>
+
+        <div class="project-box">
             <h3>AWS Static Website Hosting</h3>
             <p>
-                Built and deployed a static portfolio website using AWS S3 for storage
-                and CloudFront for content delivery. Configured bucket policies,
-                enabled static hosting, connected GitHub repository for version control,
-                and learned deployment workflow using cloud infrastructure.
+                Built and deployed a static website using AWS S3 and CloudFront.
+                Configured bucket permissions, enabled static hosting, connected GitHub
+                for version control, and learned deployment workflow on cloud infrastructure.
             </p>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 Prashant Srivastava | Cloud Portfolio</p>
-    </footer>
-
     <script src="script.js"></script>
+
 </body>
 </html>
