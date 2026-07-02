@@ -121,13 +121,6 @@ aws cloudfront create-invalidation --distribution-id MY_ID --paths "/*"
 
 ---
 
-## 👤 Author
-
-**Prashant Srivastava**  
-GitHub: https://github.com/prashanttsri
-
----
-
 ## 🎯 Final Output
 
 ![Final Website Output](06-live-site.png)
