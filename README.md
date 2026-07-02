@@ -42,7 +42,7 @@ aws-static-website/
 ├── site/
 │   ├── index.html
 │   ├── style.css
-│   └── 404.html
+│   └── script.js
 ├── screenshots/
 │   ├── 01-S3-bucket-created.png
 │   ├── 02-Bucketfiles-uploaded.png
