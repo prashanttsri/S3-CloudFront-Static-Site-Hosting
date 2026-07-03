@@ -66,7 +66,7 @@ aws-static-website/
 
 ---
 
-## 📸 Deployment Screenshots
+## 📸 Deployment Process
 
 | Step | Screenshot |
 |---|---|
